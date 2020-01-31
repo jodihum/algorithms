@@ -242,24 +242,6 @@ class DynamicProgramming {
             substring = String(firstWord[0]) + substring
         }
                
-        
-//        // retrieve substring
-//        var substring = ""
-//        var previousValue = maxValue + 1
-//
-//        var thisRow = maxRow
-//        var thisColumn = maxColumn
-//        while thisRow >= 0 && thisColumn >= 0 && grid[thisRow, thisColumn] > 0 {
-//            let newCharacter = firstWord[thisRow]
-//            let thisValue = grid[thisRow, thisColumn]
-//            if thisValue != previousValue {
-//                substring = String(newCharacter) + substring
-//                previousValue = thisValue
-//            }
-//            thisRow -= 1
-//            thisColumn -= 1
-//        }
-        
         return substring
     }
 }
